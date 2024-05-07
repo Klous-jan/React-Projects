@@ -1,4 +1,7 @@
-// function CoreConcept(props) {
+import "./CoreConcepts.css";
+
+// This method uses props
+// function CoreConcept({props}) {
 // 	return (
 // 		<li>
 // 			<img src={props.image} alt={props.title} />
@@ -7,7 +10,9 @@
 // 		</li>
 // 	);
 // }
-export default function CoreConcept({ image, title, description }) {
+
+// This method uses targeted key words
+export default function CoreConcept({image, title, description}) {
 	return (
 		<li>
 			<img src={image} alt={title} />
